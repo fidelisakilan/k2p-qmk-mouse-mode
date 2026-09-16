@@ -1,5 +1,11 @@
 #pragma once
 
+/* Static teal/turquoise as the boot-time RGB Matrix color */
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
+#define RGB_MATRIX_DEFAULT_HUE 128
+#define RGB_MATRIX_DEFAULT_SAT 255
+#define RGB_MATRIX_DEFAULT_VAL 200
+
 #define MOUSEKEY_DELAY 0
 #define MOUSEKEY_INTERVAL 16
 #define MOUSEKEY_MAX_SPEED 6
