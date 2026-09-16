@@ -1,6 +1,5 @@
 #pragma once
 
-/* Mouse key acceleration tuning for the MOUSE layer */
 #define MOUSEKEY_DELAY 0
 #define MOUSEKEY_INTERVAL 16
 #define MOUSEKEY_MAX_SPEED 6
