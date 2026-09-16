@@ -1,0 +1,12 @@
+diff --git a/keyboards/keychron/bluetooth/ckbt51.c b/keyboards/keychron/bluetooth/ckbt51.c
+index 8c8233996e..d0b5380361 100644
+--- a/keyboards/keychron/bluetooth/ckbt51.c
++++ b/keyboards/keychron/bluetooth/ckbt51.c
+@@ -400,6 +400,7 @@ void ckbt51_dfu_tx(uint8_t rsp, uint8_t* data, uint8_t len, uint8_t sn) {
+ 
+     for (uint8_t k = 0; k < i; k++)
+         checksum += buf[i];
++    (void)checksum;
+ 
+     raw_hid_send(buf, RAW_EPSIZE);
+ 
