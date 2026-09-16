@@ -1,0 +1,6 @@
+{
+    "userspace_version": "1.0",
+    "build_targets": [
+        ["keychron/k2_pro/ansi/rgb", "custom"]
+    ]
+}
