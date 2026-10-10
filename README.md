@@ -4,8 +4,9 @@ Custom QMK keymap for the Keychron K2 Pro (ANSI, RGB).
 
 ## Features
 
-- CapsLock: tap for Escape, hold for a mouse layer (works in both Mac and Windows mode)
+- Right Cmd (right Alt in Windows mode): tap to toggle the mouse layer on, tap again or press Esc to leave it (works in both Mac and Windows mode)
 - Mouse layer: `hjkl` move, `yuio` scroll, `m , .` left/right/middle click
+- While the mouse layer is on, the keys that work light up red and all other keys go dark
 - RGB: static pale turquoise on boot, top-right direct toggle key disabled, Fn+toggle still works
 - Fix for the bluetooth code failing to build on newer gcc, applied automatically
 
