@@ -23,7 +23,8 @@
 
 // clang-format off
 enum custom_keycodes {
-  MOUSE_TOG = SAFE_RANGE
+  // Keychron's own keycodes (KC_LOPTN, ...) start at SAFE_RANGE when VIA is off
+  MOUSE_TOG = NEW_SAFE_RANGE
 };
 
 enum layers{
